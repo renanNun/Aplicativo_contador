@@ -1,16 +1,9 @@
 # contador
 
-A new Flutter project.
+Este é meu primeiro projeto em flutter, o objetivo do mesmo é criar um contador de lotação para ambientes com restrição de pessoas.
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/42500047/161985671-4f5907b3-977e-4e98-9ed7-41a91a15758a.png)
 
-This project is a starting point for a Flutter application.
+![image](https://user-images.githubusercontent.com/42500047/161985750-cebdb521-1d64-4bfc-98e2-6ca35db698ea.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
