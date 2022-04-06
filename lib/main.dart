@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -42,11 +41,19 @@ class _HomeState extends State<Home> {
     return Scaffold(
       backgroundColor: Colors.white24,
       body: Container(
+        padding: const EdgeInsets.all(1),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const Positioned(
+              right: 0,
+              child: Text(
+                "C",
+                style: TextStyle(fontSize: 200, color: Color(0x10000000)),
+              ),
+            ),
             Text(
-              isFull ? 'Lotação Máxima permitida!' : 'Pode Entrar!',
+              isFull ? 'Lotação Máxima permitida' : 'Pode Entrar',
               style: TextStyle(
                 fontSize: 30.0,
                 color: isFull ? Colors.red : Colors.white,
